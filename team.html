@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Team</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/team.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/nav.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css" />
+</head>
+
+<body id="particles-js">
+	<!--NavbarSetUp-->
+    <nav>
+        <div class="links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li class="active"><a href="team.html">TEAM</a></li>
+                <li><a href="http://iictmsl.in/envisage/" target="_blank">ENVISAGE</a></li>
+                <li><a href="activity.html">ACTIVITY</a></li>
+                <li><a href="startup.html">OUR STARTUP</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="faculty.html">FACULTY</a></li>
+                <li><a href="alumni.html">ALUMNI</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <div class="marker"></div>
+            </ul>
+        </div>
+    </nav>
+    <!--FixedBar For Top of the Page-->
+    <div class="fixedbar">
+        <div>
+            <a href="index.html">
+                <img src="./image/IIC.png">
+            </a>
+        </div>
+        <div>
+            <i class="far fa-moon" id="day-night"></i>
+            
+            <div class="handburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!--Scroll Top Option-->
+    <div class="scrollTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+
+    <div class="show">
+    	<i class="fas fa-times-circle"></i>
+    	<div class="content">
+    		<div class="image">
+    			<img src="./image/img_1.jpg">
+    		</div>
+    		<div class="details">
+    			<h2>trhrsth</h2>
+    			<p>hstesht</p>
+    			<p>ryhyrhs</p>
+    			<a target = "_blank" href=""><i class="fab fa-linkedin-in"></i></a>
+    		</div>
+    		<div class="icon">
+    			<i class="fas fa-angle-double-left" onclick="slide(-1)"></i>
+    			<i class="fas fa-angle-double-right" onclick="slide(1)"></i>
+    		</div>
+    	</div>
+    </div>
+    <!--Members Details h2->Name p->About the person -->
+    <div id="main">
+		<div class="header">
+			<h1>CORE TEAM</h1>
+	    </div>
+	    <div class="mainBx">
+	        <!--====================1st member =====================-->
+	        <div class="box">
+            	<div class="img" onclick="details(0)">
+	            		<img src="./image/img_1.jpg">
+	            		<span><i class="fas fa-plus"></i></span>
+        		</div>
+                <h2>Prattay Chakrabarty</h2>
+                <p style=" font-size: 21px ;">Convenor</p>
+	        </div>
+
+	        <!--====================2st member =====================-->
+	        <div class="box">
+            	<div class="img" onclick="details(1)">
+            		<span><i class="fas fa-plus"></i></span>
+            		<img src="./image/img_2_crop.jpg">
+        		</div>
+        		<h2>Raj Chhetri</h2>
+                <p>Co-Convenor & Co-Sponsorship Head</p>
+            </div>
+
+	        <!--====================3st member =====================-->
+	        <div class="box">
+            	<div class="img" onclick="details(2)">
+            		<span><i class="fas fa-plus"></i></span>
+            		<img src="./image/img_3_crop.jpg">
+        		</div>
+        		<h2>Sougata Konar</h2>
+                <p>Sponsorship Head & Signing Authority</p>
+            </div>
+
+	        <!--====================4st member =====================-->
+	        <div class="box">
+            	<div class="img" onclick="details(3)">
+            		<img src="./image/img_4.png">
+            		<span><i class="fas fa-plus"></i></span>
+        		</div>
+            	<h2>Rounak Chourasia</h2>
+                <p style=" font-size: 21px ;">Co-Convenor</p>
+	        </div>
+
+	        <!--====================5st member =====================-->
+	        <div class="box">
+            	<div class="img" onclick="details(4)">
+            		<img src="./image/img_5.jpg">
+            		<span><i class="fas fa-plus"></i></span>
+        		</div>
+            	<h2>Amlan Mukherjee</h2>
+                <p style=" font-size: 21px ;">Resource Head</p>
+	        </div>
+
+	        <!--====================6st member =====================-->
+	        <div class="box">
+            	<div class="img" onclick="details(5)">
+            		<img src="./image/img_6.jpg">
+            		<span><i class="fas fa-plus"></i></span>
+        		</div>
+            	<h2>Tanushree Nayak</h2>
+                <p style=" font-size: 21px ;">PR Head</p>
+	        </div>
+
+	        <!--====================7st member =====================-->
+	        <div class="box">
+            	<div class="img" onclick="details(6)">
+            		<img src="./image/img_7_crop.jpg">
+            		<span><i class="fas fa-plus"></i></span>
+        		</div>
+            	<h2>Rajdeep Pal</h2>
+                <p style=" font-size: 21px ;">Tech Head</p>
+	        </div>
+
+	        <!--====================8st member =====================-->
+	        <div class="box">
+            	<div class="img" onclick="details(7)">
+            		<img src="./image/img_8.jpg">
+            		<span><i class="fas fa-plus"></i></span>
+        		</div>
+            	<h2>Sowvik Misra</h2>
+                <p style=" font-size: 21px ;">Admin Head</p>
+	        </div>
+
+	        <!--====================9st member =====================-->
+	        <div class="box">
+            	<div class="img" onclick="details(8)">
+            		<img src="./image/img_9.jpg">
+            		<span><i class="fas fa-plus"></i></span>
+        		</div>
+            	<h2>Arnab Acharjee</h2>
+                <p style=" font-size: 21px ;">Management Head</p>
+	        </div>
+	    </div>
+        <div class="header" style="margin-top: 40px;margin-bottom: 40px">
+            <h1>MEMBER</h1>
+        </div>
+        <div class="mem">
+            <div>
+                <h1>Startup Wing</h1>
+                <ol>
+                    <li>Raj Chhetri</li>
+                    <li>Dipanjan Guchait</li>
+                    <li>Sakeeb Wasim</li>
+                    <li>Abhiroop Basak</li>
+                    <li>Sejal agarwal</li>
+                    <li>Aman Kumar Agarwal </li>
+                </ol>
+            </div>
+            <div>
+                <h1>Innovation Wing</h1>
+                <ol>
+                    <li>Rounak Chourasia</li>
+                    <li>Priyanshu Kumar</li>
+                    <li>Subhodeep Sarkar</li>
+                    <li>Kushal Guha</li>
+                    <li>Debjit Dasgupta</li>
+                </ol>
+            </div>
+            <div>
+                <h1>Internship Wing</h1>
+                <ol>
+                    <li>Amlan Mukherjee</li>
+                    <li>Pritam Sarkar</li>
+                    <li>Swarnali Saha</li>
+                    <li>Kriti Bhaskar</li>
+                    <li>Aditya Kumar</li>
+                    <li>Harshit Agrawal</li>
+                </ol>
+            </div>
+            <div>
+                <h1>IPR Wing</h1>
+                <ol>
+                    <li>Prattay Chakraborty</li>
+                    <li>Moinak Ghosh</li>
+                    <li>Dipannita Kundu</li>
+                    <li>Shayantani Kar </li>
+                    <li>Koustav Mukherjee</li>
+                    <li>Diwakar Kumar Mandal</li>
+                </ol>
+            </div>
+            <div>
+                <h1>Social Media Wing</h1>
+                <ol>
+                    <li>Tanushree Nayak</li>
+                    <li>Aditya Kumar</li>
+                    <li>Ishika mondal</li>
+                    <li>Nikhil Agarwal</li>
+                </ol>
+            </div>
+            <div>
+                <h1>Finance Team</h1>
+                <ol>
+                    <li>Sougata Konar</li>
+                    <li>Nikhil Agarwal</li>
+                    <li>Rishita Banik </li>
+                </ol>
+            </div>
+            <div>
+                <h1>Design Team</h1>
+                <ol>
+                    <li>Ritam Kabiraj</li>
+                    <li>Nikhil Kumar</li>
+                    <li>Saumi Biswas</li>
+                </ol>
+            </div>
+            <div>
+                <h1>Tech Team</h1>
+                <ol>
+                    <li>Rajdeep Pal</li>
+                    <li>Koustav Banerjee</li>
+                    <li>Ankit Podder</li>
+                    <li>Agam Dayal</li>
+                    <li>Aditya Navya Shukla</li>
+                    <li>Soumalya Bhattarcharya</li>
+                    <li>Ankit Kumar Gorain</li>
+                </ol>
+            </div>
+            <div>
+                <h1>Content Team</h1>
+                <ol>
+                    <li>Priyanshu Kumar</li>
+                    <li>Agam Dayal</li>
+                    <li>Aysaria Sarkar</li>
+                    <li>Abhiroop Basak</li>
+                    <li>Ayushi Dey</li>
+                    <li>Koustav Mukherjee</li>
+                </ol>
+            </div>
+            <div>
+                <h1>Management Team </h1>
+                <ol>
+                    <li>Sowvik Misra</li>
+                    <li>Arnab Acharjee</li>
+                    <li>Harshit Agarwal</li>
+                    <li>Nabanita Hazra</li>
+                    <li>Rahul Kumar</li>
+                    <li>Shusanto Das</li>
+                    <li>Anshuman Roshan </li>
+                    <li>Saloni Sakshi</li>
+                    <li>Aniket Chakraborty </li>
+                    <li>Md Aftab Alam</li>
+                    <li>Nilesh Kumar Thakur</li>
+                    <li>Rahul Kumar</li>
+                    <li>Samujjal Ghosh</li>
+                </ol>
+            </div>
+            <div>
+                <h1>Web Developers</h1>
+                <ol>
+                    <li>Ankit Podder</li>
+                    <li>Agam Dayal</li>
+                    <li>Soumalya Bhattacharya</li>
+                    <li>Ankit Kumar Gorain</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <footer
+        style="width: 100%;height: 50px;background: black;color: white;line-height: 50px;text-align: center;margin-top: 0px">
+        <p style="margin: 0">Contact Us - 
+            <a target = "_blank" href="https://www.facebook.com/iictmsl/"><i style="margin: 0 5px;color: white" class="footerIcon fab fa-facebook-square"></i></a>
+            <a target = "_blank" href="https://twitter.com/iictmsl"><i style="margin: 0 5px;color: white" class="footerIcon fab fa-twitter"></i></a>
+            <a target = "_blank" href="https://www.instagram.com/iictmsl/"><i style="margin: 0 5px;color: white" class="footerIcon fab fa-instagram"></i></a>
+            <a target = "_blank" href="https://www.linkedin.com/company/iictmsl/"><i style="margin: 0 5px;color: white" class="footerIcon fab fa-linkedin-in"></i></a>
+        </p>
+    </footer>
+    </div>
+    <!--***********************************Add Js**************************************-->
+    <script src="./jquery.js"></script>
+    <script src="./particles.js"></script>
+    <script src="./js/member.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/team.js"></script>
+</body>
+
+</html>
